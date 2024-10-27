@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-image: url('caminho-da-imagem.jpg'); /* Coloque o caminho da imagem aqui */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.header h1 {
+    font-size: 4em;
+    margin: 0;
+}
+.header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.temas {
+    text-align: center;
+    padding: 50px 20px;
+}
+.temas h2 {
+    color: #4a90e2;
+    font-size: 2.5em;
+}
+.tema {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    vertical-align: top;
+    text-align: left;
+}
+.tema img {
+    width: 100%;
+    border-radius: 10px;
+}
+.tema h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+.tema p {
+    font-size: 1em;
+    color: #555;
+}
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.section h2 {
+    color: #4a90e2;
+    font-size: 2.5em;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    background: #f0f0f0;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 0.9em;
+    color: #777;
+}
+nav {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 15px;
+}
